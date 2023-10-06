@@ -1,4 +1,3 @@
-#!/bin/bash
 #include <unistd.h>
 #include <string.h>
 
