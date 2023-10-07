@@ -1,9 +1,10 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
- * Return: 0
+ *
+ * Return: Always 0 (success)
  */
-
 int main(void)
 {
     char s = 'a';
