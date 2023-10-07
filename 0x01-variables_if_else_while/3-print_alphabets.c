@@ -1,25 +1,17 @@
 #include <stdio.h>
 /**
- * main- entry point
- * Return: 0
+ * main - Prints the alphabet.
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
-    char j = 'j';
-    char J = 'J';
-
-    while (j <= 'z') {
-        putchar(j);
-        j++;
-    }
-
-    while (J <= 'Z') {
-        putchar(J);
-        J++;
-    }
-
-    putchar('\n');
-    return 0;
+char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        int i;
+        for (i = 0; i < 52; i++)
+        {
+                putchar(alp[i]);
+        }
+        putchar('\n');
+        return (0);
 }
-
